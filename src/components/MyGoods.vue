@@ -8,7 +8,7 @@
           :id="goods.goods_id"
           v-model="goods.goods_state"
         />
-        <label class="custom-control-label" for="goods.goods_id">
+        <label class="custom-control-label" :for="goods.goods_id">
           <img :src="goods.goods_img" alt="" />
         </label>
       </div>
